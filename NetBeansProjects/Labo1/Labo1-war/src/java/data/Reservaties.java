@@ -20,4 +20,13 @@ public Reservaties(String locatie, String model, String klantnr){
     this.klantnr = klantnr;
 }
 
+public String getLocatie(){
+    return this.locatie;
+}
+public String getModel(){
+    return this.model;
+}
+public String getKlantnr(){
+    return this.klantnr;
+}
 }

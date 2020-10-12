@@ -2,7 +2,6 @@
     Document   : reserveer
     Created on : 28-sep-2020, 14:21:35
     Author     : r0638823
-    Name        : Thijs Vercammen
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,7 +11,6 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Reserveer</title>
-        <c:url var="reserveer" value="reserveer" scope="session"/>
     </head>
     <body>
         <%@include file="header.jspf" %>
@@ -46,7 +44,7 @@
             <label for="days">Nr of days :</label>
             <input type="date" id="Pdate" name="days">
             <br>
-            <input type="Submit" name="submit" value="${reserveer}">           
+            <input type="Submit" name="submit" value="reserveer"></input>            
         </form>
         <%@include file="footer.jspf" %>    
     </body>

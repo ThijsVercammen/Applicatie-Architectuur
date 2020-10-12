@@ -6,11 +6,13 @@
             <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/web/reserveer.jsp</file>
             <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/web/klant.jsp</file>
+            <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/web/footer.jspf</file>
             <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/web/index.jsp</file>
             <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/src/java/data/Locaties.java</file>
             <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/web/overzicht.jsp</file>
             <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/src/java/controllers/ResController.java</file>
             <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/src/java/data/Reservaties.java</file>
+            <file>file:/C:/Users/r0638823/Documents/NetBeansProjects/Labo1/Labo1-war/web/header.jspf</file>
         </group>
     </open-files>
 </project-private>

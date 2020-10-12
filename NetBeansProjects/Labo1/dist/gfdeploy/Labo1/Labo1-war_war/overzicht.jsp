@@ -12,7 +12,6 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <c:url var="volgende_reservatie" value="volgende reservatie" scope="session"/>
     </head>
     <body>
         <h2>bedankt voor de reservatie ${sessionScope.klantnr}</h2>
@@ -26,7 +25,7 @@
         </c:forEach>
         </ul>
         <form method="post" action="ResController">
-            <input type="Submit" name="submit" value="${volgende_reservatie}" >
+            <input type="Submit" name="submit" value="volgende reservatie">
         </form>
 <%@include file="footer.jspf" %>    
     </body>

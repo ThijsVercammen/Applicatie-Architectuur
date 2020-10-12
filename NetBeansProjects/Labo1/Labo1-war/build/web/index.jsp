@@ -5,14 +5,16 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
+    <%@include file="header.jspf" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Index</title>
     </head>
     <body>
-        <h1>Geef uw klantennummer</h1>
+        <h2>Geef uw klantennummer</h2>
         <form method="post" action="ResController">
              <label for="klantnr">Klantnr :</label>
             <input type="text" id="klantnr" name="klantnr">
@@ -20,6 +22,6 @@
             <br>
             <input type="submit" name="submit" value="registreer">
         </form>
-        
+    <%@include file="footer.jspf" %>    
     </body>
 </html>
